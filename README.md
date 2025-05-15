@@ -9,9 +9,7 @@ This section provides a utility function to calculate **Gini Impurity**, a metri
 - Accepts a list of any size representing the count of samples in each class.
 - Computes the Gini Impurity using the formula:
 
-  \[
-  G = 1 - \sum_{i=1}^n \left( \frac{c_i}{N} \right)^2
-  \]
+  G = 1 - Σ (c_i / N)^2 for i = 1 to n
 
   where \( c_i \) is the count of class \( i \), and \( N \) is the total number of samples.
 - Prints the score to the console
