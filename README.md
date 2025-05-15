@@ -43,21 +43,21 @@ Make sure you have the following Python packages installed:
 
 ### Steps Performed
 
-### Preprocessing
+#### Preprocessing
 - Loads data and drops missing values.  
 - Drops initial irrelevant columns.  
 - Converts object columns to categorical and encodes them as numeric codes.  
 - Prints a dictionary showing category encodings for categorical features.  
 - Separates features and target labels.
 
-### Train/Test Split
+#### Train/Test Split
 - Splits data into 70% training and 30% test sets.
 
-### Hyperparameter Tuning
+#### Hyperparameter Tuning
 - Uses GridSearchCV to find the optimal `max_depth` for the Decision Tree.  
 - Prints cross-validation mean test scores and ranks.
 
-### Training and Evaluation
+#### Training and Evaluation
 - Trains the Decision Tree with the best `max_depth` and balanced class weights.  
 - Displays normalized confusion matrix.  
 - Visualizes the decision tree structure limited to a depth of 2 for clarity.
@@ -99,16 +99,16 @@ Make sure you have the following Python packages installed:
 
 ### Steps Performed
 
-### Data Preparation
+#### Data Preparation
 - Loads first 5000 rows of data and drops missing values.  
 - Converts the categorical round winner label to a numeric representation.  
 - Selects relevant feature columns and the target variable.
 
-### Normalization and Splitting
+#### Normalization and Splitting
 - Normalizes feature data to zero mean and unit variance.  
 - Splits the dataset into 70% training and 30% test sets.
 
-### Support Vector Classifier (SVC)
+#### Support Vector Classifier (SVC)
 - Defines an SVC with RBF kernel and balanced class weights.  
 - Performs grid search over `C` and `gamma` parameters using 5-fold cross-validation, optimizing weighted F1 score.  
 - Prints cross-validation mean test scores and ranks.  
@@ -116,7 +116,7 @@ Make sure you have the following Python packages installed:
 - Prints weighted F1 score on the test set.  
 - Plots normalized confusion matrix.
 
-### Random Forest Classifier
+#### Random Forest Classifier
 - Performs grid search to find the optimal `max_depth` parameter.  
 - Prints cross-validation mean test scores and ranks.  
 - Trains Random Forest with the best `max_depth`, enables out-of-bag (OOB) scoring, and verbose output.  
