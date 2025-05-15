@@ -75,7 +75,7 @@ This project uses machine learning to predict the outcome of CSGO rounds based o
 
 ### Dataset
 The data used in this project comes from the Kaggle dataset:
-**[CS:GO Round Winner CLassification]([https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification](https://www.kaggle.com/datasets/christianlillelund/csgo-round-winner-classification))**
+**[CS:GO Round Winner CLassification](https://www.kaggle.com/datasets/christianlillelund/csgo-round-winner-classification)**
 
 It contains game state features such as time left, scores, and player health, along with the round winner label.
 
