@@ -65,10 +65,16 @@ Make sure you have the following Python packages installed:
 - Visualizes the decision tree structure limited to a depth of 2 for clarity.
 
 ### Results
-- Dictionary of categorical variable encodings is printed to console.  
-- Cross-validation scores for different tree depths are printed.  
-- Confusion matrix plot for test set predictions.  
+- Dictionary of categorical variable encodings is printed to console:
+  `{'Type': {0: 'H', 1: 'L', 2: 'M'}, 'Failure Type': {0: 'Heat Dissipation Failure', 1: 'No Failure', 2: 'Overstrain Failure', 3: 'Power Failure', 4: 'Random Failures', 5: 'Tool Wear Failure'}}`  
+- Scores for different tree depths are printed.  
+<img width="329" alt="image" src="https://github.com/user-attachments/assets/4d54221c-d3ae-4819-b759-4b787317a34f" />
+
+- Confusion matrix is plotted for opitmal decision tree
+<img width="375" alt="image" src="https://github.com/user-attachments/assets/48da1b89-1305-45ad-8c12-b511427e9c78" />
+
 - Decision tree visualization plot (depth limited to 2).
+<img width="758" alt="image" src="https://github.com/user-attachments/assets/9045ad30-2eb4-412d-92fa-096b03ee48a2" />
 
 ## 3. CSGO Round Prediction
 This project uses machine learning to predict the outcome of CSGO rounds based on game state snapshots. It applies Support Vector Classifier (SVC) and Random Forest models with hyperparameter tuning via GridSearchCV to optimize predictive performance.
@@ -128,7 +134,24 @@ Make sure you have the following Python packages installed:
 - Plots normalized confusion matrix.
 
 ### Results
-- Cross-validation results for hyperparameter tuning of both models printed to console.  
-- Weighted F1 score for SVC on the test set printed.  
-- Confusion matrices plotted for both SVC and Random Forest classifiers.  
-- Training, testing, and OOB scores for Random Forest printed.
+- Results for the grid search to find the optimal Support Vector Classifier are printed to the console
+  <img width="371" alt="image" src="https://github.com/user-attachments/assets/8f2ae540-f22a-410f-96ad-f22ad5477ebb" />
+
+  The score on the test set for the SVC with optimal parmeters is printed at the bottom
+  <img width="82" alt="image" src="https://github.com/user-attachments/assets/66e3c753-eb43-4aa6-8741-5878a707168b" />
+
+- Confusion Matrix is plotted for the optimal SVC
+  <img width="386" alt="image" src="https://github.com/user-attachments/assets/08e4a02f-61ff-4f33-b153-0f6a85ca63a3" />
+
+- Results for the grid search to find the optimal Random Forest is printed to the console
+  <img width="325" alt="image" src="https://github.com/user-attachments/assets/f54b2f2d-fade-4cea-b73f-c1c1bfb3b005" />
+
+- Train, Test, and OOB score for the optimal Random Forest are printed to the console
+  <img width="126" alt="image" src="https://github.com/user-attachments/assets/496b4ef2-5462-4bf8-9a56-2c18a22cbcc8" />
+
+  <img width="128" alt="image" src="https://github.com/user-attachments/assets/4544189b-c69a-49a6-8734-80c8d93a6238" />
+
+- Confusion Matris is plotted for the optimal Random Forest
+  <img width="371" alt="image" src="https://github.com/user-attachments/assets/e2757f13-aefc-4211-9385-8b63b0ea71c1" />
+
+
