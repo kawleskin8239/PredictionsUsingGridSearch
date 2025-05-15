@@ -19,8 +19,10 @@ This section provides a utility function to calculate **Gini Impurity**, a metri
 This project uses machine learning to predict machine maintenance needs from sensor and operational data. It applies a Decision Tree Classifier with hyperparameter tuning via GridSearchCV to optimize model performance.
 
 ### Dataset
+The data used in this project comes from the Kaggle dataset:
+**[Machine Predictive Maintenance](https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification)**
 
-The dataset used is **predictive_maintenance.csv**, which includes various sensor readings and categorical variables related to machine operation and failure status.
+It includes various sensor readings and categorical variables related to machine operation and failure status.
 
 ### Features
 
@@ -72,8 +74,10 @@ Make sure you have the following Python packages installed:
 This project uses machine learning to predict the outcome of CSGO rounds based on game state snapshots. It applies Support Vector Classifier (SVC) and Random Forest models with hyperparameter tuning via GridSearchCV to optimize predictive performance.
 
 ### Dataset
+The data used in this project comes from the Kaggle dataset:
+**[CS:GO Round Winner CLassification]([https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification](https://www.kaggle.com/datasets/christianlillelund/csgo-round-winner-classification))**
 
-The dataset used is **csgo_round_snapshots.csv**, containing game state features such as time left, scores, and player health, along with the round winner label.
+It contains game state features such as time left, scores, and player health, along with the round winner label.
 
 ### Features
 
