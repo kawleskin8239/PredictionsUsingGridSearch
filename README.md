@@ -69,15 +69,15 @@ Make sure you have the following Python packages installed:
   `{'Type': {0: 'H', 1: 'L', 2: 'M'}, 'Failure Type': {0: 'Heat Dissipation Failure', 1: 'No Failure', 2: 'Overstrain Failure', 3: 'Power Failure', 4: 'Random Failures', 5: 'Tool Wear Failure'}}`  
 - Scores for different tree depths are printed.
   
-<img width="329" alt="image" src="https://github.com/user-attachments/assets/4d54221c-d3ae-4819-b759-4b787317a34f" />
+  <img width="329" alt="image" src="https://github.com/user-attachments/assets/4d54221c-d3ae-4819-b759-4b787317a34f" />
 
 - Confusion matrix is plotted for opitmal decision tree
   
-<img width="375" alt="image" src="https://github.com/user-attachments/assets/48da1b89-1305-45ad-8c12-b511427e9c78" />
+  <img width="375" alt="image" src="https://github.com/user-attachments/assets/48da1b89-1305-45ad-8c12-b511427e9c78" />
 
 - Decision tree visualization plot (depth limited to 2).
   
-<img width="758" alt="image" src="https://github.com/user-attachments/assets/9045ad30-2eb4-412d-92fa-096b03ee48a2" />
+  <img width="758" alt="image" src="https://github.com/user-attachments/assets/9045ad30-2eb4-412d-92fa-096b03ee48a2" />
 
 ## 3. CSGO Round Prediction
 This project uses machine learning to predict the outcome of CSGO rounds based on game state snapshots. It applies Support Vector Classifier (SVC) and Random Forest models with hyperparameter tuning via GridSearchCV to optimize predictive performance.
